@@ -12,6 +12,7 @@
 		B37344BD1EF9571500AF2F64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B37344BB1EF9571500AF2F64 /* Main.storyboard */; };
 		B37344BF1EF9571500AF2F64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B37344BE1EF9571500AF2F64 /* Assets.xcassets */; };
 		B37344C21EF9571500AF2F64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B37344C01EF9571500AF2F64 /* LaunchScreen.storyboard */; };
+		B37344CA1EF9572500AF2F64 /* tipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37344C91EF9572500AF2F64 /* tipViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		B37344BE1EF9571500AF2F64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B37344C11EF9571500AF2F64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B37344C31EF9571500AF2F64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B37344C91EF9572500AF2F64 /* tipViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tipViewController.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				B37344B71EF9571500AF2F64 /* AppDelegate.swift */,
 				B37344B91EF9571500AF2F64 /* ViewController.swift */,
+				B37344C91EF9572500AF2F64 /* tipViewController.swift */,
 				B37344BB1EF9571500AF2F64 /* Main.storyboard */,
 				B37344BE1EF9571500AF2F64 /* Assets.xcassets */,
 				B37344C01EF9571500AF2F64 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			files = (
 				B37344BA1EF9571500AF2F64 /* ViewController.swift in Sources */,
 				B37344B81EF9571500AF2F64 /* AppDelegate.swift in Sources */,
+				B37344CA1EF9572500AF2F64 /* tipViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
