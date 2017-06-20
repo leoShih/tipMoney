@@ -34,6 +34,15 @@ class tipViewController: UIViewController {
     }
     
     
+    @IBAction func cleanBtn(_ sender: UIButton) {
+        
+        moneyText.text = ""
+        tipText.text = ""
+        resultText.text = ""
+        
+        
+        
+    }
     
 
     override func viewDidLoad() {
